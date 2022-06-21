@@ -21,8 +21,9 @@
                 <p>
                     <%- post.excerpt %>
                 </p>
+		<p><b>&gt;</b> <a href="<%- url_for(post.path) %>">view more...</a></p>	
             <% } %>
-	    		<p><b>&gt;</b> <a href="<%- url_for(post.path) %>">view more...</a></p>
+
 
      </li>
    <% }) %>
