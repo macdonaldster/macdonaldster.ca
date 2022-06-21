@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <meta charset="utf-8">
- <!-- Use  for dynamic title -->
- <title>macdonaldster.ca</title>
-   
-   <!-- Twitter bootstrap (via cdn) -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  
-<meta name="generator" content="Hexo 6.2.0"></head>
-<body>
-  <div class='container'>
-   <div class='row text-center'>
+<div class='row text-center'>
  <h1><%= config.author %></h1>
     <p><%= config.subtitle %></p>
 
@@ -38,7 +25,3 @@
    <% }) %>
  </ul>
 </div>
- </div>
-</body>
-</html>
-    
