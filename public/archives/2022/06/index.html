@@ -12,30 +12,26 @@
 <body>
   <div class='container'>
    <div class='row text-center'>
- <h1><%= config.author %></h1>
-    <p><%= config.subtitle %></p>
+ <h1>Scott MacDonald</h1>
+    <p>Things I like...</p>
 
 </div>
 <div class='row'>
  <ul>
- <% page.posts.each(function(post)){ %>
+ 
      <li>
       <h3>
-                <a href="<%- url_for(post.path) %>">
-           <%= post.title %>
+                <a href="/2022/06/21/2022-06-21/">
+           Mon Jun 20 2022 18:00:00 GMT-0600 (Mountain Daylight Time)
           </a>
             </h3>
             <div class='text-muted'>
-                <%= date(post.date, config.date_format) %> 
+                2022-06-21 
             </div>
             
-            <% if(post.excerpt) { %>
-                <p>
-                    <%- post.excerpt %>
-                </p>
-            <% } %>
+            
      </li>
-   <% }) %>
+   
  </ul>
 </div>
  </div>
