@@ -1,7 +1,7 @@
 ---
 title: Zebra F-701 (ball point pen)
 date: 2022-06-21 08:54:29
-tags: post
+tags: stuff
 ---
 
 I saw this pen on a Reddit EDC post.

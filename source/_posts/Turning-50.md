@@ -1,7 +1,7 @@
 ---
 title: Turning 50
 date: 2022-06-22 21:26:15
-tags:
+tags: biography
 ---
 
 Is turning 50 really "something I like"?

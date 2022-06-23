@@ -1,7 +1,7 @@
 ---
 title: Hawkins Cheezies
 date: 2022-06-21 22:19:42
-tags:
+tags: food
 ---
 This is their site and it is as classic as the snack the make: http://www.cheezies.com/
 
