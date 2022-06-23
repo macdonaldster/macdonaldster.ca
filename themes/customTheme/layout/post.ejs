@@ -1,10 +1,22 @@
+<div class='row text-center'>
+ <h1><%= config.title %></h1>
+    <p><%= config.subtitle %></p>
+
+</div>
+
 <div class='row'>
- <a class='btn btn-default' href='/'>< Home</a>
+<a class='btn btn-default' href='/'>< Home</a>
 </div>
 <div class='row'>
- <h1><%- page.title %></h1>
+<div class='col-md-8'>
+
+<h1><%- page.title %></h1>
  <div class='text-muted'>
         <%= date(page.date, config.date_format) %> 
     </div>
  <%- page.content %>
+</div>
+
+<%- partial('partial/_sidebar_about') %>
+
 </div>
